@@ -13,5 +13,6 @@ ReactDOM.render(React.createElement(
     null,
     "Otherwise: "
   ),
-  React.createElement(User, null)
-), document.querySelector('#like_button_container'));
+  React.createElement(User, null),
+  React.createElement(Tick, null)
+), document.querySelector('#root'));
